@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shin/shinywings/research/DataGeneration/random_tone_map.cpp
+iostream
+-
+vector
+-
+string
+-
+random
+-
+opencv4/opencv2/opencv.hpp
+-
+opencv4/opencv2/photo.hpp
+-
+opencv4/opencv2/imgproc.hpp
+-
+opencv4/opencv2/core.hpp
+-
+pybind11/embed.h
+-
+pybind11/numpy.h
+-
+pybind11/stl.h
+-
+pybind11/functional.h
+-
+pybind11/pybind11.h
+-
+
